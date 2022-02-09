@@ -37,9 +37,15 @@ export default {
     background-color: color(white);
     border-radius: 5px;
     color: color(gray);
+    margin: 0 auto;
     padding: 8px 10px 8px 20px;
 
+    @media (min-width: 970px) {
+      max-width: 570px;
+    }
+
     &-name {
+        cursor: pointer;
         font-size: size(medium22);
         text-transform: capitalize;
     }

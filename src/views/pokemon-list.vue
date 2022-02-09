@@ -8,7 +8,7 @@
             :visible="loadingVisible"
         />
         <div class="section-list-content-card">
-            <div v-if="pokemonsRows.length">
+            <div v-if="pokemonsRows.length" class="section-list-content-pokemons">
                 <items-pokemon
                     class="section-list-pokemons"
                     v-for="(item, index) in pokemonsRows"
@@ -144,6 +144,10 @@ export default {
     &-content-card {
         margin-top: 40px;
         padding-bottom: 20px;
+    }
+
+    &-content-pokemons {
+        margin-bottom: 80px;
     }
 
     &-footer {

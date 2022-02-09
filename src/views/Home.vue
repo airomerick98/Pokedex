@@ -59,7 +59,7 @@ export default {
 
 <style lang="scss">
 .home {
-  @include align-center;
+  @include content-center;
   background-color: color(background);
   min-height: 700px;
   padding: 83px 32px;

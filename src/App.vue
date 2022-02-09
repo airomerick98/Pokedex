@@ -45,6 +45,7 @@ h1 {
 .button-star {
   background-color: color(white-secondary);
   border-radius: 50%;
+  cursor: pointer;
   padding: 9px;
 }
 </style>
